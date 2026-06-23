@@ -109,6 +109,20 @@ The Sanity Studio will be available at [http://localhost:3333](http://localhost:
 
 ---
 
+## 💬 Interactive Commenting System
+
+The project features a admin approved commenting system on each blog post page, allowing readers to share their thoughts.
+
+![Commenting Feature](public/readme_2.png)
+
+### How It Works:
+1. **User Submission**: Readers can submit comments using the comment form under each post, providing their name, email, and comment.
+2. **API Route Processing**: Submissions are sent to the Next.js API route (`pages/api/createComment.ts`).
+3. **Database Write**: The API handler utilizes the Sanity Client configured with a secure `SANITY_API_TOKEN` to write the comment document to the database.
+4. **Moderation/Approval**: Comments are saved to Sanity CMS with an unapproved state by default. The blog administrator can review, moderate, and approve comments inside the **Sanity Studio** panel before they are rendered on the live blog post.
+
+---
+
 ## 🧱 Sanity CMS Content Schemas
 
 The following document schemas are pre-configured inside `studio/schemaTypes`:
