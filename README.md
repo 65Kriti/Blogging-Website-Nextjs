@@ -109,7 +109,7 @@ The Sanity Studio will be available at [http://localhost:3333](http://localhost:
 
 ---
 
-## 💬 Interactive Commenting System
+## 💬 Admin Approved Commenting System
 
 The project features a admin approved commenting system on each blog post page, allowing readers to share their thoughts.
 
