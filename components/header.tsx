@@ -41,7 +41,7 @@ function Header() {
           </Link>
           <nav className="hidden items-center space-x-4 md:inline-flex text-sm font-medium text-slate-600 dark:text-slate-300">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/kriti_effect"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-4 py-2 text-xs font-bold transition-all duration-300 shadow-sm hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:text-white hover:scale-105 active:scale-95 cursor-pointer"
@@ -52,7 +52,7 @@ function Header() {
               <span>Instagram</span>
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/kriti-singh-47b281217"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-4 py-2 text-xs font-bold transition-all duration-300 shadow-sm hover:bg-[#0077b5] hover:text-white hover:scale-105 active:scale-95 cursor-pointer"
